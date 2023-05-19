@@ -1,0 +1,647 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1682972111901633, "dur": 1415111, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682972111901838, "dur": 6361, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682972111908201, "dur": 31560, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682972111939764, "dur": 619820, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682972112559586, "dur": 743245, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682972113302833, "dur": 13910, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682972113317134, "dur": 10, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1682972112408774, "dur": 136240, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682972112409489, "dur": 30235, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682972112533438, "dur": 3330, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682972112536770, "dur": 8238, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682972112537254, "dur": 7179, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682972112548276, "dur": 912, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682972112547670, "dur": 1532, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682972113317217, "dur": 172, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1682972112597341, "dur":973, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972112598320, "dur":69, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1682972112598413, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1682972112598426, "dur":447, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1682972112598887, "dur":463, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972112599350, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288140, "dur":222, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288362, "dur":323, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288685, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288689, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288696, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288697, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288702, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288703, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288708, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288709, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288714, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288715, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288729, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288731, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288736, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288738, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288742, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288743, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288748, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288750, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288754, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288755, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288761, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288763, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288767, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288768, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288772, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288774, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288778, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288779, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288783, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288784, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288787, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288789, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288792, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288793, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288797, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288798, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288802, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288803, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288806, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288813, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288817, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288819, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288823, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288825, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288829, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288830, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288834, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288843, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113288865, "dur":1529, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1682972112598983, "dur":376, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682972112599359, "dur":3560, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682972112602928, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1682972112602993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682972112614330, "dur":15311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1682972112629654, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112629780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682972112629784, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112630638, "dur":14212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112644855, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682972112644861, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112645957, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112646118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682972112646122, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112647348, "dur":1093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112648443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682972112648447, "dur":2285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112650773, "dur":23387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112674163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682972112674167, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112675505, "dur":12471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112687979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682972112687984, "dur":1381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112689412, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112689707, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682972112689710, "dur":2642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112692403, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112692531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682972112692535, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112695171, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112695504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682972112695507, "dur":2405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112697960, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112698117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682972112698142, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112700363, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112700514, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682972112700517, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112702188, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112702568, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682972112702571, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112704704, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112704908, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682972112704911, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682972112706488, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1682972112706609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682972112707209, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1682972112708717, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1682972112708836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682972112708839, "dur":1915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1682972112710784, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1682972112710822, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682972112710825, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1682972112712662, "dur":575483, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682972112598981, "dur":374, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682972112599355, "dur":3548, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682972112602911, "dur":30540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1682972112633454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682972112633672, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1682972112634635, "dur":10331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112644969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682972112644973, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112646109, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112646230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682972112646233, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112647614, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112647915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682972112647919, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112649633, "dur":11120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112660755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682972112660759, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112661948, "dur":10830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112672781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682972112672785, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112673974, "dur":18077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112692053, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682972112692057, "dur":2665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112694760, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112694889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682972112694898, "dur":2435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112697378, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112697539, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682972112697542, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112699047, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112699464, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682972112699476, "dur":1900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112701429, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112701606, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682972112701608, "dur":2642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112704288, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112704636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682972112704640, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112706266, "dur":10875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112717143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682972112717546, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682972112718345, "dur":569804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682972112598985, "dur":379, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682972112599364, "dur":3542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682972112602910, "dur":20102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1682972112623015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682972112623020, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1682972112623780, "dur":24770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112648552, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682972112648557, "dur":1915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112650497, "dur":35258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112685758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682972112685762, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112686944, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112687334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682972112687360, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112689065, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112689210, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682972112689213, "dur":2358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112691620, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112691765, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682972112691767, "dur":2366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112694207, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112694329, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682972112694332, "dur":2803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112697183, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112697335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682972112697341, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112698958, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112699202, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682972112699205, "dur":1939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112701189, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112701370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682972112701374, "dur":2170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112703584, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112703730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682972112703733, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112704959, "dur":4396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112709357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682972112709361, "dur":3440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682972112712837, "dur":575328, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682972112599081, "dur":310, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682972112599391, "dur":3517, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682972112602910, "dur":22839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1682972112625751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682972112625755, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1682972112626681, "dur":9660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112636344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682972112636349, "dur":892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112637267, "dur":9880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112647150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682972112647155, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112648354, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112648536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682972112648540, "dur":2264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112650847, "dur":22725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112673575, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682972112673581, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112675066, "dur":11976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112687047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682972112687052, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112688357, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112688571, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682972112688575, "dur":2312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112690933, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112691098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682972112691102, "dur":2616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112693766, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112693914, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682972112693918, "dur":2772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112696739, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112696902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682972112696906, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112698560, "dur":2991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112701553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682972112701557, "dur":3621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112705210, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112705525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682972112705529, "dur":2635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682972112708199, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1682972112708234, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682972112708236, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1682972112709835, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1682972112709865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682972112709867, "dur":2119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1682972112712026, "dur":576109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682972112599126, "dur":274, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682972112599400, "dur":3524, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682972112602925, "dur":14605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1682972112617532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682972112617585, "dur":678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1682972112618274, "dur":10447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112628724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682972112628775, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112629636, "dur":11690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112641328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682972112641333, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112642078, "dur":11736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112653817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682972112653822, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112654755, "dur":8282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112663039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682972112663042, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112664487, "dur":12733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112677224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682972112677229, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112678383, "dur":10553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112688939, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682972112688944, "dur":2323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112691312, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112691422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682972112691426, "dur":2401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112693877, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112694309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682972112694312, "dur":2946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112697298, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112697456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682972112697460, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112699512, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112699894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682972112699898, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112701723, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112701875, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682972112701878, "dur":2336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112704252, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112704502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682972112704506, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112706074, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112706207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682972112706211, "dur":2227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682972112708480, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1682972112708519, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682972112708522, "dur":2006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1682972112710563, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1682972112710598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682972112710601, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1682972112712366, "dur":575771, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682972112599078, "dur":309, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682972112599387, "dur":3538, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682972112602939, "dur":8880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1682972112611840, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682972112614325, "dur":2794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1682972112617131, "dur":9450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112626585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682972112626830, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112627693, "dur":19718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112647414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682972112647418, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112649171, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112649438, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682972112649441, "dur":2180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112651664, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112651811, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682972112651815, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112652861, "dur":8332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112661218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682972112661222, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112662410, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112662645, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682972112662648, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112664220, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112664411, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682972112664413, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112665775, "dur":8294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112674071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682972112674075, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112675292, "dur":822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112676117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682972112676121, "dur":2056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112678225, "dur":24550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112702777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682972112702780, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112704689, "dur":737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112705428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682972112705431, "dur":2942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682972112708427, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1682972112708475, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682972112708478, "dur":3542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1682972112712064, "dur":576066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682972112599031, "dur":335, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682972112599366, "dur":3541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682972112602910, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1682972112603250, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682972112613946, "dur":22537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1682972112636499, "dur":10124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112646625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682972112646629, "dur":1405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112648067, "dur":11810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112659882, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682972112659889, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112661039, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112661194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682972112661226, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112662924, "dur":22509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112685439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682972112685445, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112686621, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112686727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682972112686730, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112687973, "dur":576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112688552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682972112688556, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112690676, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112690775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682972112690778, "dur":2671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112693502, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112693640, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682972112693645, "dur":3079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112696756, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112696898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682972112696902, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112698284, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112698518, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682972112698521, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112700535, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112700781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682972112700805, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112702349, "dur":2674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112705025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682972112705028, "dur":3788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682972112708868, "dur":628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1682972112709500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682972112709506, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1682972112711702, "dur":576430, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682972112599050, "dur":328, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682972112599378, "dur":3526, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682972112602911, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1682972112602979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682972112613799, "dur":159352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1682972112773169, "dur":514973, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682972112599071, "dur":312, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682972112599383, "dur":3565, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682972112602949, "dur":244508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1682972112847461, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682972112847467, "dur":1188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1682972112848666, "dur":439487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682972112599111, "dur":283, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682972112599394, "dur":3515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682972112602910, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1682972112602991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682972112613935, "dur":104720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1682972112718671, "dur":569487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682972112599122, "dur":275, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682972112599397, "dur":3552, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682972112602950, "dur":18816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame.exe" }}
+,{ "pid":12345, "tid":11, "ts":1682972112621769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682972112621773, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame.exe" }}
+,{ "pid":12345, "tid":11, "ts":1682972112622845, "dur":24689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682972112647538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682972112647542, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682972112649209, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682972112649321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682972112649325, "dur":2162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682972112651517, "dur":8787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682972112660307, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682972112660312, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682972112661541, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682972112661707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682972112661711, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682972112663544, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682972112663671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682972112663690, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682972112665217, "dur":11473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682972112676694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682972112676699, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682972112678096, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682972112678283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682972112678286, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682972112679476, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682972112679726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682972112679730, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682972112680898, "dur":89758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682972112770659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682972112770663, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682972112771712, "dur":516421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682972112599151, "dur":253, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682972112599404, "dur":3511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682972112602916, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1682972112602992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682972112614297, "dur":26021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1682972112640331, "dur":57880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682972112698213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682972112698216, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682972112700076, "dur":973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682972112701051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682972112701055, "dur":1982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682972112703084, "dur":2279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682972112705365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682972112705370, "dur":3698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682972112709124, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1682972112709170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682972112709173, "dur":1905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1682972112711113, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1682972112711256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682972112711260, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1682972112712764, "dur":575387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682972112599170, "dur":237, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682972112599407, "dur":3529, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682972112602936, "dur":529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1682972112603467, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682972112613951, "dur":12523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1682972112626487, "dur":22480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682972112648970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682972112648974, "dur":2288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682972112651290, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682972112651413, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682972112651416, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682972112652644, "dur":8601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682972112661248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682972112661252, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682972112662976, "dur":10356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682972112673337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682972112673344, "dur":1416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682972112674794, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682972112674946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682972112674951, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682972112676775, "dur":13646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682972112690424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682972112690429, "dur":2723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682972112693193, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682972112693309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682972112693313, "dur":2724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682972112696074, "dur":51436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682972112747514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682972112747520, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682972112748422, "dur":539724, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682972112599188, "dur":222, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682972112599410, "dur":3534, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682972112602945, "dur":676535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682972113279484, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682972113279489, "dur":8579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682972113288087, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":14, "ts":1682972113288090, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682972112599207, "dur":206, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682972112599413, "dur":3498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682972112602914, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1682972112603092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682972112614636, "dur":23570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1682972112638223, "dur":41768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682972112679995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682972112679999, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682972112681210, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682972112681366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682972112681371, "dur":731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682972112682123, "dur":17030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682972112699156, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682972112699161, "dur":1850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682972112701053, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682972112701297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682972112701301, "dur":2258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682972112703601, "dur":1265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682972112704868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682972112704872, "dur":2742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682972112707666, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":15, "ts":1682972112707730, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682972112707838, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":15, "ts":1682972112709299, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":15, "ts":1682972112709330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682972112709333, "dur":1806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":15, "ts":1682972112711194, "dur":576945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682972112599222, "dur":194, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682972112599416, "dur":3517, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682972112602934, "dur":648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":16, "ts":1682972112603584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682972112613971, "dur":3089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":16, "ts":1682972112617077, "dur":44852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682972112661932, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682972112661937, "dur":1966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682972112663934, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682972112664075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682972112664078, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682972112665369, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682972112665502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682972112665505, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682972112666458, "dur":50538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682972112716999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682972112717003, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682972112717958, "dur":570182, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682972112599243, "dur":176, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682972112599419, "dur":3502, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682972112602922, "dur":735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":17, "ts":1682972112603659, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682972112614898, "dur":19417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":17, "ts":1682972112634327, "dur":12729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682972112647060, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682972112647066, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682972112648766, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682972112648946, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682972112648951, "dur":2087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682972112651077, "dur":10753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682972112661833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682972112661837, "dur":1829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682972112663695, "dur":11108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682972112674806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682972112674811, "dur":1758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682972112676610, "dur":11465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682972112688078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682972112688082, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682972112689797, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682972112689908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682972112689911, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682972112692337, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682972112692458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682972112692461, "dur":2858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682972112695348, "dur":35057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682972112730409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682972112730415, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682972112731368, "dur":556788, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1682972112599260, "dur":162, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1682972112599422, "dur":3505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1682972112602928, "dur":162812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":18, "ts":1682972112765743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1682972112765748, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":18, "ts":1682972112766559, "dur":521584, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1682972112599280, "dur":145, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1682972112599425, "dur":3514, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1682972112602942, "dur":259333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682972112862278, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1682972112862484, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682972112863404, "dur":424756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1682972112599296, "dur":132, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1682972112599428, "dur":3503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1682972112602934, "dur":9865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":20, "ts":1682972112612801, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1682972112614403, "dur":81168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":20, "ts":1682972112695593, "dur":52996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":20, "ts":1682972112748591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1682972112748595, "dur":756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":20, "ts":1682972112749377, "dur":538771, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1682972112599312, "dur":120, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1682972112599432, "dur":3510, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1682972112602946, "dur":395899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":21, "ts":1682972112998850, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1682972112998950, "dur":2611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":21, "ts":1682972113001577, "dur":286578, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1682972112599330, "dur":104, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1682972112599434, "dur":3480, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1682972112602914, "dur":119445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":22, "ts":1682972112722361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1682972112722424, "dur":707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":22, "ts":1682972112723142, "dur":565020, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1682972112599345, "dur":6, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1682972112599352, "dur":3550, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1682972112602910, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":23, "ts":1682972112602915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1682972112604257, "dur":354, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":23, "ts":1682972112604614, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/app.info" }}
+,{ "pid":12345, "tid":23, "ts":1682972112604660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1682972112613533, "dur":2246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/app.info" }}
+,{ "pid":12345, "tid":23, "ts":1682972112615781, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":23, "ts":1682972112615804, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1682972112616036, "dur":55098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":23, "ts":1682972112671161, "dur":17031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1682972112688195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1682972112688199, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1682972112690215, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":23, "ts":1682972112690343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1682972112690346, "dur":2343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":23, "ts":1682972112692724, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":23, "ts":1682972112692859, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1682972112692862, "dur":2558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":23, "ts":1682972112695460, "dur":25597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/PhysicsGame_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":23, "ts":1682972112721059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1682972112721064, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/PhysicsGame_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":23, "ts":1682972112722031, "dur":566135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1682972112599364, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1682972112599365, "dur":3552, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1682972112602918, "dur":196432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles JumpItGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":24, "ts":1682972112799354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1682972112799361, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"JumpItGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":24, "ts":1682972112800403, "dur":487760, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682972113291779, "dur":1516, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1682972113317439, "dur": 540, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682972113317124, "dur": 868, "ph": "X", "name": "Write chrome-trace events", "args": {} },
